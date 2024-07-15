@@ -51,7 +51,7 @@ namespace Smart_Cart
             Console.WriteLine("Products you may like:");
             for (int i = 0; i < randomProducts.Count; i++)
             {
-                Console.WriteLine($"[{i + 1}] {randomProducts[i].Name} - ${randomProducts[i].Price} - Category: {randomProducts[i].Category}");
+                Console.WriteLine($"[{i + 1}] {randomProducts[i].Name} - ${randomProducts[i].Price:0.00} - Category: {randomProducts[i].Category}");
             }
             Console.WriteLine("[X] Exit");
 

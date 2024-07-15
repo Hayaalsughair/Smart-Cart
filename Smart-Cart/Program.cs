@@ -12,11 +12,11 @@
             var RandomProducts = new ProductGenerator();
 
 
-            bool startShooping = true;
-            while (startShooping)
+            bool startShopping = true;
+            while (startShopping)
             {
-                Console.WriteLine("============== \tOFFER!\t ==============");
-                Console.WriteLine("========= OFF 15% On Oreder +100$  =========\n");
+                Console.WriteLine("=================== OFFER! ====================");
+                Console.WriteLine("========= OFF 15% On Order Above 100$  =========\n");
 
                 Console.WriteLine("Press [W] To Shop at Women Fashion");
                 Console.WriteLine("Press [M] To Shop at Men Fashion");
@@ -28,7 +28,7 @@
                 Console.WriteLine("Press [C] To Calculate Total Cost");
                 Console.WriteLine("Press [Q] Quit");
 
-                Console.Write("Start Shooping: ");
+                Console.Write("Start Shopping: ");
                 String userOption = Console.ReadLine().ToUpper();
 
                 switch (userOption) {
@@ -65,7 +65,7 @@
                         break;
                     case "Q":
                         Console.WriteLine("Finsh Shooping, See You Soon :)");
-                        startShooping = false;
+                        startShopping = false;
                         break;
                     default: 
                         Console.WriteLine("Invalid choice, Please try again");
